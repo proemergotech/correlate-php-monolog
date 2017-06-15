@@ -1,6 +1,6 @@
 {
   "name": "proemergotech/correlate-php-monolog",
-  "description": "Monolog processor for microservices to append correlation id to every log message.",
+  "description": "Monolog processor for microservices to append correlation id to log messages.",
   "keywords": [
   	"microservice",
   	"uuid",
