@@ -10,7 +10,7 @@ use ProEmergotech\Correlate\Monolog\CorrelateProcessor;
  * @category  \ProEmergotech\Correlate\Monolog\Tests
  * @package   \ProEmergotech\Correlate\Monolog\Tests
  */
-class CorrelateProcessorTest extends \PHPUnit_Framework_TestCase
+class CorrelateProcessorTest extends TestCase
 {
     /**
      * @before
@@ -19,4 +19,14 @@ class CorrelateProcessorTest extends \PHPUnit_Framework_TestCase
     {
 
     }
+
+    /**
+     * @test
+     */
+    /*
+    public function testSomething()
+    {
+
+    }
+    */
 }
