@@ -18,7 +18,7 @@ $ composer require proemergotech/correlate-php-monolog
 Generate a correlation id:
 ```php
 $processor = new \ProEmergotech\Correlate\Monolog\CorrelateProcessor('x_correlation_id', $correlationId);
-$monolog->pushProcessor(new CorrelateProcessor(Correlate::getParamName(), $cid));
+$monolog->pushProcessor($processor);
 ```
 
 ## Contributing
